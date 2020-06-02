@@ -1,0 +1,212 @@
+/* tag sel */
+
+body {
+  position: relative;
+  background-color: #daebee;
+  margin: 0;
+}
+
+/* class sel */
+/* top-block css*/
+.top-block {
+  width: 38%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 2px -3px 10px 3px rgba(0, 0, 0, 0.2);
+  filter: blur(0.45px);
+  border-radius: 6px 5px 0 0;
+}
+
+.top-block h3 {
+  font-family: "Karla", sans-serif;
+  color: hsl(179, 62%, 43%);
+  margin-top: 100px;
+  margin-left: 30px;
+  padding-top: 35px;
+  font-size: 1.18rem;
+}
+
+.top-block h4 {
+  font-family: "Karla", sans-serif;
+  color: hsl(71, 73%, 54%);
+  margin: 25px 30px 10px;
+  font-size: 0.9rem;
+}
+
+.top-block p {
+  color: hsl(218, 22%, 67%);
+  font-family: "Karla", sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1;
+  margin-left: 30px;
+}
+
+/* botton-left css */
+
+.bottom-left {
+  width: 19%;
+  margin-left: 31%;
+  background-color: hsl(179, 62%, 43%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  filter: blur(0.3px);
+  border-radius: 0 0 0 6px;
+}
+
+.bottom-left h4 {
+  margin-top: 0;
+  padding-top: 30px;
+  font-family: "Karla", sans-serif;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.dollor {
+  display: inline-block;
+  color: white;
+  font-family: "Karla", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.month {
+  position: relative;
+  display: inline-block;
+  font-family: "Karla", sans-serif;
+  color: hsl(180, 49%, 67%);
+  font-size: 0.8rem;
+  bottom: 4px;
+  left: 9px;
+  margin-bottom: 0;
+}
+
+.access {
+  color: white;
+  font-family: "Karla", sans-serif;
+  color: hsl(180, 41%, 82%);
+  font-size: 0.75rem;
+  margin-top: 0;
+  margin-left: 30px;
+}
+
+.btn {
+  margin: 10px 30px 30px;
+  width: 75%;
+  padding: 10px 0;
+  border-style: none;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.btn a {
+  text-decoration: none;
+  font-family: "Karla", sans-serif;
+  color: white;
+}
+
+.btn a:hover {
+  color: hsl(179, 62%, 43%);
+}
+
+/* bottom-right */
+
+.bottom-right {
+  position: relative;
+  width: 19%;
+  margin-left: 49.99%;
+  background-color: hsl(179, 50%, 54%);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 6px 0px;
+  top: -198.79px;
+}
+
+.bottom-right h4 {
+  margin-top: 0;
+  padding-top: 30px;
+  font-family: "Karla", sans-serif;
+  color: white;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  font-weight: normal;
+  filter: blur(0.3px);
+}
+
+ul {
+  padding-left: 30px;
+}
+
+li {
+  list-style-type: none;
+  color: hsl(180, 47%, 79%);
+  font-family: "Karla", sans-serif;
+  font-size: 0.71rem;
+  text-shadow: 1px 1px -1px;
+  padding-bottom: 3px;
+}
+
+.list {
+  padding-bottom: 26px;
+}
+/* id sel */
+/* top-block css */
+#last-one {
+  padding-bottom: 40px;
+  margin-bottom: 0;
+}
+
+/* footer*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media queries */
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: #daebee;
+    margin: 0;
+  }
+  .top-block {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    filter: blur(0.45px);
+    border-radius: 6px 5px 0 0;
+  }
+  .bottom-left {
+    width: 80%;
+    margin: 0 auto;
+    background-color: hsl(179, 62%, 43%);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    filter: blur(0.3px);
+    border-radius: 0 0 0 0;
+  }
+  .bottom-right {
+    width: 80%;
+    margin: 0 auto;
+    background-color: hsl(179, 50%, 54%);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 6px 6px;
+    filter: blur(0.3px);
+    top: 0px;
+  }
+}
+
+/* 400 regular
+font-family: 'Karla', sans-serif;
+
+700 bold
+font-family: 'Karla', sans-serif;
+*/
