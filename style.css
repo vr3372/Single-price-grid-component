@@ -1,63 +1,69 @@
-/* tag sel */
-
 body {
-  position: relative;
-  background-color: #daebee;
   margin: 0;
+  background-color: #daebee;
 }
 
 /* class sel */
-/* top-block css*/
-.top-block {
-  width: 38%;
-  margin: 0 auto;
-  background-color: #ffffff;
-  box-shadow: 2px -3px 10px 3px rgba(0, 0, 0, 0.2);
-  filter: blur(0.45px);
-  border-radius: 6px 5px 0 0;
+/* main */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 370px;
+  margin: 80px auto 0;
+  box-shadow: 0px 6px 8px 5px hsl(219, 52%, 86%);
+  border-radius: 10px;
 }
 
+/* top-block */
+.top-block {
+  width: 500px;
+  background-color: white;
+  height: 170px;
+  filter: blur(0.4px);
+  border-radius: 5px 5px 0 0;
+}
 .top-block h3 {
   font-family: "Karla", sans-serif;
   color: hsl(179, 62%, 43%);
-  margin-top: 100px;
+  margin-top: 0px;
   margin-left: 30px;
-  padding-top: 35px;
+  padding-top: 30px;
   font-size: 1.18rem;
 }
 
 .top-block h4 {
   font-family: "Karla", sans-serif;
   color: hsl(71, 73%, 54%);
-  margin: 25px 30px 10px;
+  margin: 20px 30px 10px;
   font-size: 0.9rem;
 }
 
 .top-block p {
   color: hsl(218, 22%, 67%);
   font-family: "Karla", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: normal;
   line-height: 1;
   margin-left: 30px;
+  margin-bottom: 7px;
 }
 
-/* botton-left css */
+/* bottom-left */
 
 .bottom-left {
-  width: 19%;
-  margin-left: 31%;
+  width: 250px;
+  height: 200px;
   background-color: hsl(179, 62%, 43%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-  filter: blur(0.3px);
-  border-radius: 0 0 0 6px;
+  margin: 0;
+  border-radius: 0 0 0 5px;
 }
 
 .bottom-left h4 {
   margin-top: 0;
   padding-top: 30px;
   font-family: "Karla", sans-serif;
-  color: white;
+  color: ivory;
   margin-left: 30px;
   margin-bottom: 10px;
   font-size: 0.9rem;
@@ -66,7 +72,7 @@ body {
 
 .dollor {
   display: inline-block;
-  color: white;
+  color: ivory;
   font-family: "Karla", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
@@ -80,19 +86,19 @@ body {
   display: inline-block;
   font-family: "Karla", sans-serif;
   color: hsl(180, 49%, 67%);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   bottom: 4px;
   left: 9px;
   margin-bottom: 0;
 }
 
 .access {
-  color: white;
+  color: hsl(180, 51%, 82%);
   font-family: "Karla", sans-serif;
-  color: hsl(180, 41%, 82%);
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   margin-top: 0;
   margin-left: 30px;
+  font-weight: lighter;
 }
 
 .btn {
@@ -117,25 +123,22 @@ body {
 /* bottom-right */
 
 .bottom-right {
-  position: relative;
-  width: 19%;
-  margin-left: 49.99%;
+  width: 250px;
+  height: 200px;
   background-color: hsl(179, 50%, 54%);
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 0 0 6px 0px;
-  top: -198.79px;
+  margin: 0;
+  border-radius: 0 0 5px 0;
 }
 
 .bottom-right h4 {
   margin-top: 0;
   padding-top: 30px;
   font-family: "Karla", sans-serif;
-  color: white;
+  color: ivory;
   margin-left: 30px;
   margin-bottom: 10px;
   font-size: 0.9rem;
   font-weight: normal;
-  filter: blur(0.3px);
 }
 
 ul {
@@ -144,11 +147,12 @@ ul {
 
 li {
   list-style-type: none;
-  color: hsl(180, 47%, 79%);
+  color: hsl(180, 56%, 82%);
   font-family: "Karla", sans-serif;
-  font-size: 0.71rem;
+  font-size: 0.7rem;
   text-shadow: 1px 1px -1px;
   padding-bottom: 3px;
+  font-weight: lighter;
 }
 
 .list {
@@ -156,51 +160,97 @@ li {
 }
 /* id sel */
 /* top-block css */
+
 #last-one {
   padding-bottom: 40px;
+  margin-top: 7px;
   margin-bottom: 0;
 }
 
-/* footer*/
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 /* media queries */
-
 @media only screen and (max-width: 375px) {
   body {
     background-color: #daebee;
     margin: 0;
   }
+
+  .main-container {
+    width: 225px;
+    height: 560px;
+    margin: 20px auto 0;
+    box-shadow: 0px 0px 1px 0px grey;
+  }
+
   .top-block {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #ffffff;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
-    filter: blur(0.45px);
-    border-radius: 6px 5px 0 0;
+    width: 225px;
+    height: 200px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .top-block h3 {
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 25px;
+    font-size: 0.9rem;
+  }
+
+  .top-block h4 {
+    margin: 20px 20px 10px;
+    font-size: 0.7rem;
+    font-weight: lighter;
+  }
+
+  .top-block p {
+    font-size: 0.6rem;
+    font-weight: normal;
+    line-height: 2;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .bottom-left {
-    width: 80%;
-    margin: 0 auto;
-    background-color: hsl(179, 62%, 43%);
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
-    filter: blur(0.3px);
+    width: 225px;
+    margin: 0;
+    height: 180px;
     border-radius: 0 0 0 0;
   }
+  .bottom-left h4 {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+  .dollor {
+    margin-left: 20px;
+  }
+
+  .month {
+    left: 9px;
+  }
+
+  .access {
+    margin-left: 20px;
+  }
+
+  .btn {
+    margin: 10px 20px 30px;
+  }
+
   .bottom-right {
-    width: 80%;
-    margin: 0 auto;
-    background-color: hsl(179, 50%, 54%);
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
-    border-radius: 0 0 6px 6px;
-    filter: blur(0.3px);
-    top: 0px;
+    width: 225px;
+    margin: 0;
+    border-radius: 0 0 4px 4px;
+    height: 180px;
+  }
+  .bottom-right h4 {
+    margin-left: 20px;
+    padding-top: 20px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    font-size: 0.65rem;
+    font-weight: normal;
   }
 }
 
